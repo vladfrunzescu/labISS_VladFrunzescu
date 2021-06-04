@@ -35,7 +35,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </ComboBox>
-      <ComboBox layoutX="93.0" layoutY="13.0" prefHeight="27.0" prefWidth="76.0" promptText="Hour" />
-      <ComboBox layoutX="192.0" layoutY="13.0" prefHeight="27.0" prefWidth="76.0" promptText="Min" />
+      <ComboBox fx:id="comboBoxHour" layoutX="93.0" layoutY="13.0" prefHeight="27.0" prefWidth="76.0" promptText="Hour" />
+      <ComboBox fx:id="comboBoxMinute" layoutX="192.0" layoutY="13.0" prefHeight="27.0" prefWidth="76.0" promptText="Min" />
    </children>
 </AnchorPane>

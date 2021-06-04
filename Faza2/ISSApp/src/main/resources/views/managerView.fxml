@@ -12,7 +12,7 @@
    <children>
       <Label layoutX="7.0" layoutY="10.0" text="Employees:" />
       <Label layoutX="392.0" layoutY="10.0" text="Tasks:" />
-      <TableView fx:id="tableViewSarcina" layoutX="392.0" layoutY="27.0" prefHeight="152.0" prefWidth="257.0">
+      <TableView fx:id="tableViewSarcina" layoutX="392.0" layoutY="27.0" onMouseClicked="#handlePressTask" prefHeight="152.0" prefWidth="257.0">
         <columns>
           <TableColumn fx:id="tableColumnDescription" prefWidth="143.0" text="Description" />
             <TableColumn fx:id="tableColumnStatus" minWidth="0.0" prefWidth="113.0" text="Status" />

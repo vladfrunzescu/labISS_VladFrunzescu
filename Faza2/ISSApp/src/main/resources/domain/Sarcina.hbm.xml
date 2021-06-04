@@ -7,12 +7,14 @@
     <class name="domain.Sarcina" table="Sarcini">
 
         <id name="id" column="id" type="long">
-            <generator class="identity"/>
+            <generator class="increment"/>
         </id>
 
         <property name="descriere" column="descriere" type="string"/>
 
         <property name="status" column="status" type="string"/>
+
+        <property name="idAngajat" column="idAngajat" type="long"/>
 
     </class>
 </hibernate-mapping>
